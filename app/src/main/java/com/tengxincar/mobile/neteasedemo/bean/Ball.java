@@ -1,4 +1,4 @@
-package com.tengxincar.mobile.neteasedemo;
+package com.tengxincar.mobile.neteasedemo.bean;
 
 /**
  * Created by wxs on 2019/7/5.

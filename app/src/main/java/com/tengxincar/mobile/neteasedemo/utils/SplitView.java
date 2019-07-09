@@ -1,4 +1,4 @@
-package com.tengxincar.mobile.neteasedemo;
+package com.tengxincar.mobile.neteasedemo.utils;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -10,6 +10,9 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
+
+import com.tengxincar.mobile.neteasedemo.R;
+import com.tengxincar.mobile.neteasedemo.bean.Ball;
 
 import java.util.ArrayList;
 import java.util.List;
