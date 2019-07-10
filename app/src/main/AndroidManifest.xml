@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".SplitViewActivity" />
         <activity android:name=".ScreenUtilsActivity" />
-        <activity android:name=".ScreenPercentActivity"></activity>
+        <activity android:name=".ScreenPercentActivity" />
+        <activity android:name=".DensityActivity"></activity>
     </application>
 
 </manifest>

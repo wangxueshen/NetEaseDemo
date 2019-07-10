@@ -23,7 +23,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private String[] data = new String[]{
             "SplitView",
             "ScreenUtils",
-            "ScreenPercent"
+            "ScreenPercent",
+            "Density"
     };
 
     @Override
