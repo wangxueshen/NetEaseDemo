@@ -1,4 +1,4 @@
-package com.tengxincar.mobile.neteasedemo.utils;
+package com.tengxincar.mobile.neteasedemo.customView;
 
 import android.content.Context;
 import android.util.AttributeSet;

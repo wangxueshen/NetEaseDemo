@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     ListView lvDemo;
     private String[] data = new String[]{
             "SplitView",
-            "ScreenUtils"
+            "ScreenUtils",
+            "ScreenPercent"
     };
 
     @Override
@@ -30,7 +31,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, data);
         lvDemo.setAdapter(arrayAdapter);
