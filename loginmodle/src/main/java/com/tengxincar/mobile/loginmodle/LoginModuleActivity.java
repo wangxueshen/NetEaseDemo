@@ -21,11 +21,9 @@ public class LoginModuleActivity extends AppCompatActivity {
     }
 
 
-    public void test(){
+    public void dev(){
 
     }
 
-    public void test0712(){
 
-    }
 }
