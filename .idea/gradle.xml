@@ -8,7 +8,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/annotations" />
+            <option value="$PROJECT_DIR$/annotions_compiler" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/arouter" />
+            <option value="$PROJECT_DIR$/loginmodle" />
+            <option value="$PROJECT_DIR$/personalmodule" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

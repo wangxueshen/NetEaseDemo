@@ -5,6 +5,12 @@ import android.os.Bundle;
 
 import com.tengxincar.mobile.neteasedemo.utils.TXDensity;
 
+/**
+ * 自定义Density来适配
+ *
+ * @author wxs
+ * @date 2019/7/12
+ */
 public class DensityActivity extends AppCompatActivity {
 
     @Override

@@ -53,9 +53,10 @@ public class PercentLayout extends RelativeLayout {
     }
 
 
+
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-
+        //获取父容器的宽高
         int widthSize = MeasureSpec.getSize(widthMeasureSpec);
         int heightSize = MeasureSpec.getSize(heightMeasureSpec);
         int count = getChildCount();
@@ -100,6 +101,11 @@ public class PercentLayout extends RelativeLayout {
 
 
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+    }
+
+    @Override
+    protected boolean checkLayoutParams(ViewGroup.LayoutParams p) {
+        return p instanceof LayoutParmas;
     }
 
     public LayoutParams generateLayoutParams(AttributeSet attrs) {

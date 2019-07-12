@@ -25,7 +25,6 @@ public class ActivitySkipUtil {
 			Class<? extends Activity> cls) {
 		Intent intent = new Intent(activity, cls);
 		activity.startActivity(intent);
-		activity.finish();
 	}
  
 	/**

@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':loginmodle', ':personalmodule', ':arouter', ':annotations', ':annotions_compiler'

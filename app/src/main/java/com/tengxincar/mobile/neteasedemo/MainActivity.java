@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "SplitView",
             "ScreenUtils",
             "ScreenPercent",
-            "Density"
+            "Density",
+            "CustomARouter"
     };
 
     @Override
@@ -41,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        String className = getPackageName() + data[position] + "Activity";
+        String className = getPackageName() + "." + data[position] + "Activity";
         try {
             Class activityClass = Class.forName(className);
             ActivitySkipUtil.skipAnotherActivity(this, activityClass);

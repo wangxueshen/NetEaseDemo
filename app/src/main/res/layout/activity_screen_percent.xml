@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.tengxincar.mobile.neteasedemo.customView.PercentLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,8 +12,9 @@
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         android:text="宽50%  高75%"
-        app:layout_heightPercent="75%"
-        app:layout_widthPercent="50%" />
+        app:widthPercent="0.5"
+        app:heightPercent="0.75"
+        />
 
 
-</android.support.percent.PercentRelativeLayout>
+</com.tengxincar.mobile.neteasedemo.customView.PercentLayout>

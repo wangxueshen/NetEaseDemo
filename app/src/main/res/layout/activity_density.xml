@@ -6,4 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".DensityActivity">
 
+
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="240dp"
+        android:background="@color/colorPrimaryDark"
+        />
+
+
+
 </android.support.constraint.ConstraintLayout>
