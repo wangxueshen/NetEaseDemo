@@ -19,4 +19,10 @@ public class LoginModuleActivity extends AppCompatActivity {
     public void jumpToPersonal(View view) {
         ARouter.getInstance().jumpToActivity("personalmodule/personalmodule", null);
     }
+
+
+    public void test(){
+
+    }
+
 }
