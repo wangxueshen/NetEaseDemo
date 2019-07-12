@@ -20,7 +20,9 @@ public class LoginModuleActivity extends AppCompatActivity {
         ARouter.getInstance().jumpToActivity("personalmodule/personalmodule", null);
     }
 
+    private void dev0712(){
 
+    }
     public void dev(){
 
     }
