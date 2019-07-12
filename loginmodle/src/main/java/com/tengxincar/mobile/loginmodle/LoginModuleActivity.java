@@ -21,8 +21,6 @@ public class LoginModuleActivity extends AppCompatActivity {
     }
 
 
-    public void test(){
 
-    }
 
 }
