@@ -9,6 +9,8 @@ import com.tengxincar.mobile.arouter.IRouter;
 public class ActivityUtils implements IRouter {
     @Override
     public void putActivity() {
-//        ARouter.getInstance().putActivity();
+        ARouter.getInstance().putActivity("login/login",LoginModuleActivity.class);
+        ARouter.getInstance().putActivity("login/login",LoginModuleActivity.class);
+        ARouter.getInstance().putActivity("login/login",LoginModuleActivity.class);
     }
 }

@@ -7,8 +7,6 @@ if (LOGIN_MODULE_ISLIB) {
 android {
     compileSdkVersion COMPILER_SDK_VERSION.toInteger()
 
-
-
     defaultConfig {
         if (!LOGIN_MODULE_ISLIB.toBoolean()) {
             applicationId "com.tengxincar.mobile.personalmodule"

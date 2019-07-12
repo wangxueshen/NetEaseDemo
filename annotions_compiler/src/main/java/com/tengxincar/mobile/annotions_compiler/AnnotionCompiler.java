@@ -76,7 +76,6 @@ public class AnnotionCompiler extends AbstractProcessor {
         //通过这个API能拿到所有这个模块中所有的用到了BindPath注解的节点
         Set<? extends Element> elementsAnnotatedWith = roundEnv.getElementsAnnotatedWith(BindPath.class);
 
-
         Map<String, String> map = new HashMap<>();
         for (Element element : elementsAnnotatedWith) {
             //找到类节点
