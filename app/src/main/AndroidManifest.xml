@@ -21,7 +21,9 @@
         <activity android:name=".ScreenUtilsActivity" />
         <activity android:name=".ScreenPercentActivity" />
         <activity android:name=".DensityActivity" />
-        <activity android:name=".CustomARouterActivity"></activity>
+        <activity android:name=".CustomARouterActivity" />
+        <activity android:name=".EventBusActivity" />
+        <activity android:name=".EventBusSecondActivity"></activity>
     </application>
 
 </manifest>
