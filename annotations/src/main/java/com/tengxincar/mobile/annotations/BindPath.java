@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
  * 注解需要定义javaLib
  */
 @Target(ElementType.TYPE)//声明这个注解放在什么上面的 TYPE是类上面
-@Retention(RetentionPolicy.CLASS)//声明这个注解的生命周期   三个生命周期  java--->class--->run
+@Retention(RetentionPolicy.CLASS)//声明这个注解的生命周期   三个生命周期  java--->Source class--->Class RUNTime---->run
 public @interface BindPath {
     String value();
 }
