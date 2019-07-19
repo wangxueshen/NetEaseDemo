@@ -29,6 +29,7 @@ dependencies {
     //butterknife
     implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    //组件化
     if (LOGIN_MODULE_ISLIB.toBoolean()) {
         implementation project(':loginmodle')
     }
@@ -38,4 +39,9 @@ dependencies {
     implementation project(':arouter')
     implementation project(':annotations')
     annotationProcessor project(':annotions_compiler')
+
+
+    //控件计算帮助
+    implementation 'com.nineoldandroids:library:2.4.0'
+
 }

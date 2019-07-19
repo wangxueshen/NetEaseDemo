@@ -3,16 +3,23 @@
 
     <declare-styleable name="PercentLayout">
 
-        <attr name="widthPercent" format="float"/>
-        <attr name="heightPercent" format="float"/>
-        <attr name="marginLeftPercent" format="float"/>
-        <attr name="marginRightPercent" format="float"/>
-        <attr name="marginTopPercent" format="float"/>
-        <attr name="marginBottomPercent" format="float"/>
-
+        <attr name="widthPercent" format="float" />
+        <attr name="heightPercent" format="float" />
+        <attr name="marginLeftPercent" format="float" />
+        <attr name="marginRightPercent" format="float" />
+        <attr name="marginTopPercent" format="float" />
+        <attr name="marginBottomPercent" format="float" />
 
     </declare-styleable>
 
+
+
+    <attr name="a_in" format="float" />
+    <attr name="a_out" format="float" />
+    <attr name="x_in" format="float" />
+    <attr name="x_out" format="float" />
+    <attr name="y_in" format="float" />
+    <attr name="y_out" format="float" />
 
 
 </resources>

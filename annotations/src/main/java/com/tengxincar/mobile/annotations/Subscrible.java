@@ -15,7 +15,5 @@ import java.lang.annotation.Target;
 public @interface Subscrible {
     //声明线程
     ThreadMode threadMode() default ThreadMode.MIAN;
-
-
 }
 

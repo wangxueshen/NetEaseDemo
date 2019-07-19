@@ -26,7 +26,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "ScreenPercent",
             "Density",
             "CustomARouter",
-            "EventBus"
+            "EventBus",
+            "MyViewGroup",
+            "Bezier",
+            "Splash"
     };
 
     @Override

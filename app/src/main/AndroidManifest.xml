@@ -10,6 +10,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity"></activity>
+        <activity android:name=".DragBubbleActivity" />
+        <activity android:name=".BezierActivity" />
+        <activity android:name=".MyViewGroupActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +27,7 @@
         <activity android:name=".DensityActivity" />
         <activity android:name=".CustomARouterActivity" />
         <activity android:name=".EventBusActivity" />
-        <activity android:name=".EventBusSecondActivity"></activity>
+        <activity android:name=".EventBusSecondActivity" />
     </application>
 
 </manifest>
